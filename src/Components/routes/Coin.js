@@ -8,13 +8,29 @@ const Coin = () => {
 
   const params = useParams();
   const [coin,setCoin]=useState({});
+  // const [coins, setCoins] = useState([]);
+  // const [loading, setLoading] = useState(false);
 
-  const url=`https://api.coingecko.com/api/v3/coins/${params.coinID}`;
+  const newUrl=`https://api.coingecko.com/api/v3/coins/${params.coinID}`;
 
   // const url=`https://api.coingecko.com/api/v3/coins/${params.coinID}`;
 
+  // const fetchCoins = async () => {
+  //   setLoading(true);
+  //   const { data } = await axios.get(newUrl);
+  //   console.log(data);
+  //   setCoins(data);
+  //   setLoading(false);
+  // };
+
+  // useEffect(() => {
+  //   fetchCoins();
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [newUrl]);
+
+
   useEffect(()=>{
-    axios.get(url).then((res)=>{
+    axios.get(newUrl).then((res)=>{
       setCoin(res.data)
     }).catch((error)=>{
       console.log(error);
