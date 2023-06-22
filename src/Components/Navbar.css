@@ -1,4 +1,5 @@
 .navbar{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,9 +7,9 @@
 
 .icon{
     font-size: 2rem;
-    color: rgb(193, 37, 37);
+    color:rgb(239, 166, 31);;
 }
 
-.purple{
-    color: rgb(193, 37, 37);;
+.blue{
+    color: rgb(239, 166, 31);
 }

@@ -4,8 +4,8 @@
     padding: .7rem 1rem;
     display: flex;
     flex-direction: column;
-    background-color: #27374D;
-    box-shadow: 0px 0px 12px #51636e;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0px 0px 12px #383939;
     border-radius: 8px;
 }
 
@@ -14,11 +14,12 @@
 }
 
 .rank-btn {
-    border: 1px solid #6900ff;
-    box-shadow: 0px 0px 8px #6900ff;
-    background-color: #6900ff;
+    border: 1px solid #383939;
+    box-shadow: 0px 0px 8px #383939;
+    background-color: rgb(239, 166, 31);;
     border-radius: 8px;
     padding: .2rem;
+    color: black;
 }
 
 .info {
@@ -52,7 +53,10 @@ td, th {
 }
 
 th {
-    background-color: #333;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid #383939;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #383939;
 }
 
 .stats {
