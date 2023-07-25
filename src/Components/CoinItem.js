@@ -26,7 +26,7 @@ const CoinItem = (props) => {
       <p className='hide-mobile'>{numberWithCommas(props.coins.total_volume.toString().slice(0, -6))}M</p>
       <p className='hide-mobile'>{numberWithCommas(props.coins.market_cap.toString().slice(0, -6))}M</p>   
              </div>
-      
+       
       
       {/* <Stack spacing={2}>
       <Pagination count={10} variant="outlined" /> */}

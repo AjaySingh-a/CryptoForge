@@ -10,8 +10,10 @@ const Coin = () => {
     const params = useParams()
     const [coin, setCoin] = useState({})
 
-//    const HistoricalChart = (id, days = 365, currency) =>
-//   `https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=${currency}&days=${days}`;
+   const HistoricalChart = (days = 365) =>
+  `https://api.coingecko.com/api/v3/coins/${params.coinId}/market_chart?vs_currency=INR&days=${days}`;
+
+  
 
     const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`
 

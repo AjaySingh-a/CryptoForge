@@ -8,14 +8,16 @@ const Navbar = () => {
   return (
 
     <>
+    <Link to="/">
     <AppBar color="transparent" position="static">
       <Container>
         <Toolbar>
           <Typography flex={1} color={"rgb(239, 166, 31)"}>CryptoDigest</Typography>
         </Toolbar>
       </Container>
-
     </AppBar>
+    </Link>
+    
      <div>
      <Link to='/'>
      <div className='navbar'>
