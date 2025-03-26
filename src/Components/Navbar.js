@@ -12,7 +12,7 @@ const Navbar = () => {
     <AppBar color="transparent" position="static">
       <Container>
         <Toolbar>
-          <Typography flex={1} color={"rgb(239, 166, 31)"}>CryptoDigest</Typography>
+          <Typography flex={1} color={"rgb(239, 166, 31)"}>CryptoForge</Typography>
         </Toolbar>
       </Container>
     </AppBar>
@@ -22,7 +22,7 @@ const Navbar = () => {
      <Link to='/'>
      <div className='navbar'>
          <FaCoins className="icon"/>
-         <h1>Crypto<span className="blue">Digest</span> </h1>
+         <h1>Crypto<span className="blue">Forge</span> </h1>
      </div>
      </Link>
      </div>
